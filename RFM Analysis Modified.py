@@ -22,8 +22,8 @@ import pandas as pd
 # CONFIGURATION (EDIT THESE)
 # ============================================================
 
-in_file =  r'C:\Ken\Blog\RFM Analysis\Donations.csv'
-out_file = r'C:\Ken\Blog\RFM Analysis\RFM Modified.csv'
+in_file =  r'Donations.csv'
+out_file = r'RFM Modified.csv'
 
 AS_OF_DATE = datetime.now().date()   # recency is calculated relative to this date
 
@@ -188,3 +188,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
