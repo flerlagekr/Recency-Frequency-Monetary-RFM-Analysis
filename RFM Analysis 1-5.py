@@ -15,8 +15,8 @@
 from datetime import date, datetime
 import pandas as pd
 
-in_file =  r'C:\Ken\Blog\RFM Analysis\Donations.csv'
-out_file = r'C:\Ken\Blog\RFM Analysis\RFM 1-5.csv'
+in_file =  r'Donations.csv'
+out_file = r'RFM 1-5.csv'
 
 EXPECTED_COLUMNS = [
     "Donor ID",
@@ -189,4 +189,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
